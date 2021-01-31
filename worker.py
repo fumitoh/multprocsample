@@ -82,7 +82,7 @@ class ModelWorker(Process):
         self.terminate()
 
     def open_model(self):
-        self.model = mx.restore_model(self.model_path, name=self.model_id)
+        self.model = mx.read_model(self.model_path, name=self.model_id)
 
     def get_space(self, space_names):
         spaces = []
