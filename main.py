@@ -1,3 +1,5 @@
+# Based on sample code contributed by Alexey Baran
+
 from worker import *
 
 if __name__ == '__main__':

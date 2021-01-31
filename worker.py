@@ -1,3 +1,5 @@
+# Based on sample code contributed by Alexey Baran
+
 from multiprocessing import Process, Pipe, Queue
 import modelx as mx
 from functools import wraps
